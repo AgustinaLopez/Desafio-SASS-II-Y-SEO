@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Prata&display=swap");
+.contenedor {
+  background-color: #eee2d1; }
+
+.botonera {
+  background-color: #E59D5C;
+  display: flex;
+  justify-content: space-between;
+  opacity: .8; }
+  .botonera img {
+    width: 200px; }
+  .botonera ul {
+    display: flex; }
+    .botonera ul li {
+      list-style: none; }
+      .botonera ul li a {
+        font-family: "Comfortaa", cursive;
+        color: #eee2d1;
+        font-size: 1em;
+        text-decoration: none; }
+        .botonera ul li a:hover {
+          color: white;
+          font-weight: 600;
+          background-size: 100% 2px; }
+
+* {
+  padding: 0;
+  margin: 0; }
+
+h1, h2, h3, h4 {
+  font-family: "Prata", serif;
+  color: #A99F3C;
+  font-weight: 400; }
+
+h1 {
+  font-size: 2.8em;
+  text-align: center; }
+
+h2 {
+  font-size: 1.5em;
+  text-align: center; }
+
+h3, h4 {
+  font-size: 1em; }
+
+body {
+  background-color: #FFF4E1; }
+
+p {
+  font-family: "Comfortaa", cursive;
+  font-size: 1em;
+  color: #A99F3C;
+  font-weight: 350;
+  text-align: center; }
+
+.textos, .textosConBorde {
+  width: 100%;
+  height: auto;
+  font-size: 1em;
+  margin: 30px auto;
+  padding: 20px 40px;
+  overflow: auto; }
+
+.botonUno, .botonDos {
+  color: #eee2d1;
+  background-color: #E59D5C;
+  font-family: "Comfortaa", cursive;
+  text-decoration: none;
+  border-radius: 6px;
+  font-size: 1em;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .botonUno:hover, .botonDos:hover {
+    transform: translateY(-10px);
+    cursor: pointer;
+    font-weight: 400;
+    color: white; }
+
+.botonDos {
+  width: 100px;
+  height: 30px;
+  margin-left: 50px; }
+
+.textosConBorde {
+  border: solid #A99F3C 2px; }
+
+.formularioTexto {
+  font-family: "Comfortaa", cursive;
+  font-size: 1em;
+  line-height: 2rem;
+  color: #A99F3C;
+  font-weight: 350; }
+
+.navegacionBreadcrumbs {
+  font-size: 1em;
+  text-decoration: none;
+  color: #eee2d1;
+  font-family: "Comfortaa", cursive; }
+
+.pie {
+  background-color: #E59D5C;
+  opacity: .8;
+  padding: 8px;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center; }
+
+.pieNewsletter {
+  font-family: "Comfortaa", cursive;
+  font-size: 0.8em;
+  color: #eee2d1;
+  font-weight: 350; }
+
+.whatsapp-icon {
+  background-image: url(../img/whatsapp.png);
+  width: 30px;
+  height: 30px;
+  background-size: 100%;
+  list-style: none;
+  margin-right: 6px; }
+
+.instagram-icon {
+  background-image: url(../img/instagram.png);
+  width: 30px;
+  height: 30px;
+  background-size: 100%;
+  list-style: none;
+  margin-right: 6px; }
